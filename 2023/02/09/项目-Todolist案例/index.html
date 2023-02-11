@@ -110,7 +110,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%87%E7%94%A8%E6%8A%80%E6%9C%AF"><span class="nav-number">2.</span> <span class="nav-text">采用技术</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">主要实现过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#render%E5%87%BD%E6%95%B0"><span class="nav-number">3.1.</span> <span class="nav-text">render函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9A%BE%E7%82%B9%E4%B8%BB%E8%A6%81%E5%9C%A8%E4%BA%8E%E5%88%87%E6%8D%A2%E5%92%8C%E5%88%A0%E9%99%A4%EF%BC%8C%E7%BB%9F%E4%B8%80%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%EF%BC%9AswitchList-targer-bool-remove-%E8%BF%9B%E8%A1%8C%E6%8E%A7%E5%88%B6"><span class="nav-number">3.2.</span> <span class="nav-text">难点主要在于切换和删除，统一使用一个函数：switchList(targer,bool,remove)进行控制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E7%9A%84%E5%87%BD%E6%95%B0"><span class="nav-number">3.3.</span> <span class="nav-text">控制切换的函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A7%E5%88%B6%E5%88%A0%E9%99%A4%E7%9A%84%E5%87%BD%E6%95%B0"><span class="nav-number">3.4.</span> <span class="nav-text">控制删除的函数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%9E%90%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B"><span class="nav-number">4.</span> <span class="nav-text">分析运行过程</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%87%E7%94%A8%E6%8A%80%E6%9C%AF"><span class="nav-number">2.</span> <span class="nav-text">采用技术</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">主要实现过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#render%E5%87%BD%E6%95%B0"><span class="nav-number">3.1.</span> <span class="nav-text">render函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9A%BE%E7%82%B9%E4%B8%BB%E8%A6%81%E5%9C%A8%E4%BA%8E%E5%88%87%E6%8D%A2%E5%92%8C%E5%88%A0%E9%99%A4%EF%BC%8C%E7%BB%9F%E4%B8%80%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%EF%BC%9AswitchList-targer-bool-remove-%E8%BF%9B%E8%A1%8C%E6%8E%A7%E5%88%B6"><span class="nav-number">3.2.</span> <span class="nav-text">难点主要在于切换和删除，统一使用一个函数：switchList(targer,bool,remove)进行控制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A7%E5%88%B6%E5%88%87%E6%8D%A2%E7%9A%84%E5%87%BD%E6%95%B0"><span class="nav-number">3.3.</span> <span class="nav-text">控制切换的函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8E%A7%E5%88%B6%E5%88%A0%E9%99%A4%E7%9A%84%E5%87%BD%E6%95%B0"><span class="nav-number">3.4.</span> <span class="nav-text">控制删除的函数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%9E%90%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B"><span class="nav-number">4.</span> <span class="nav-text">分析运行过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%A8%E5%88%B0%E7%9A%84%E9%87%8D%E8%A6%81API"><span class="nav-number">5.</span> <span class="nav-text">用到的重要API</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -125,18 +125,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -281,6 +281,14 @@
 <li>先在栈底压入全局执行上下文，在执行前，将全局中的 var 和 function 声明获取，记录在全局对象上（浏览器为window），获取全局的let、const、class声明，并记录在 全局 scope 上，然后检查scope中的重复声明和 scope 和全局对象上的重复声明，有重复声明就直接报错，这是在执行前就会报错，检查完成后，对var变量赋初值 undefined，对function赋初值 为函数对象，let、const、class没有初值，注意，这都是执行前做的操作。</li>
 <li>在 JS解析完成后，回到渲染进程，合并DOM和CSSOM生产渲染树，然后遍历渲染树进行布局，生成DOM的位置信息，然后再进行分层，这是为了提高渲染效率，然后就进行绘制，绘制的命令发出后，<strong>会在另一个线程——合成线程中进行</strong>，<strong>第一步</strong>先进行分块， 在分块时会开启线程池加速分块，分块是把界面分成一个个块，当视图发生变化时，可以提高渲染的效率。<strong>第二步</strong>进行光栅化，光栅化也会开启一个线程池并调用GPU进程来加速光栅化，这一步是为了生成像素信息<strong>，第三步</strong> DRAW QUAN，这一步会打包指令并发送给GPU进程，GPU根据指令在屏幕上显示图像。</li>
 </ol>
+<h2 id="用到的重要API"><a href="#用到的重要API" class="headerlink" title="用到的重要API"></a>用到的重要API</h2><ol>
+<li><code>parentElement</code>：获取父节点</li>
+<li><code>firstElementChild</code>：获取第一个子节点，可以配合第一个 API 进行使用</li>
+<li><code>nextElementSibling</code>：基于自身节点的父节点，获取自身节点的下一个同级节点，如果自身就是最后的节点，返回 <strong>null</strong></li>
+<li><code>previousElementSibling</code>：基于自身节点的父节点，获取自身节点的上一个同级节点，如果自身就是最后的节点，返回 <strong>null</strong></li>
+<li><code>splice()</code>:接受两个参数，第一个参数是索引，第二个参数是删除的位数，改变原数组，返回值为数组</li>
+<li><code>indexOf()</code>:接受任意参数，根据参数对数组进行匹配，会返回第一个匹配值的<strong>索引</strong></li>
+</ol>
 
     </div>
 
@@ -299,6 +307,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2023/02/11/JavaScript%E5%A5%87%E6%80%AA%E7%9A%84%E7%89%B9%E6%80%A7/" rel="next" title="JavaScript奇怪的特性">
+                  JavaScript奇怪的特性 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
