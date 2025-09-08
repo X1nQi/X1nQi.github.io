@@ -14,6 +14,6 @@ avatar: /logo_full.jpg
 
 # 介绍页
 
-# 撒大声地阿是
+# The Best Method
 
-三十岁
+No matter what method, the most basic point is to invest time.

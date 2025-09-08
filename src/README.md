@@ -19,6 +19,17 @@ projects:
     desc: 图床服务
     link: https://picui.cn/
 
+  - icon: streamline-color:smiley-emoji-kiss-nervous
+    name: emoji😀
+    desc: emoji表情包
+    link: https://www.emojiall.com/zh-hans/all-emojis
+  
+
+
+
+
+    
+
 
 
 ---

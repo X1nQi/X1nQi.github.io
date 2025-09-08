@@ -20,6 +20,8 @@ export default hopeTheme({
   // 介绍页logo
   logo: "/logo.png",
 
+  // 禁止导航栏的仓库连接
+  repoDisplay: false,
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
@@ -27,10 +29,8 @@ export default hopeTheme({
   blog: {
     // 社交媒体
     medias: {
-      Baidu: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      Email:"mailto:xiaxin7@foxmail.com",
+      GitHub: "https://github.com/X1nQi",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
