@@ -1,0 +1,16 @@
+// you can change config here
+$theme-color: #C8B5E3;
+
+// 更改主页的主标题颜色
+.vp-blog-hero-title {
+  background: linear-gradient(135deg,#c2ffd8,#465efb);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+// 覆盖介绍页的头像布局居中显示
+.vp-portfolio-avatar {
+
+  align-items: center !important; 
+
+}
