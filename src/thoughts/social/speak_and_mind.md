@@ -1,6 +1,6 @@
 ---
 title: 语言是如何制造地位的
-index: false
+index: true
 icon: laptop-code
 category:
   - 思考

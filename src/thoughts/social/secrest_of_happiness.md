@@ -1,6 +1,6 @@
 ---
 title: 获得幸福人生的秘诀
-index: false
+index: true
 icon: laptop-code
 category:
   - 思考
