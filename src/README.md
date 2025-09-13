@@ -24,6 +24,10 @@ projects:
     desc: emoji表情包
     link: https://www.emojiall.com/zh-hans/all-emojis
 
+  - icon: emojione-v1:cow-face
+    name: 次元API
+    desc: 随机二次元图片
+    link: https://t.alcy.cc/
 
 ---
 
