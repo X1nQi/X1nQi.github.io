@@ -48,7 +48,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "Offer blessings for a better tomorrow.🍻",
+      footer: "云朵为我停留，潮水为我歌唱",
 
       displayFooter: true,
 
