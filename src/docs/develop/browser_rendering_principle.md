@@ -123,7 +123,8 @@ CSSOM即 CSS Object Model，CSS对象模型和DOM是类似的，DOM和CSSOM是�
 
 重绘即repaint：指的是元素的几何信息没有发生变化，而是颜色、透明度、可视情况等发生改变，就会从`paint`阶段重新计算，称之为`repaint`。
 
-
+## chrome渲染管线
+![chrome渲染管线](/img/diagram-the-rendering-pi.jpeg)
 
 
 
