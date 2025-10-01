@@ -6,7 +6,7 @@ icon: laptop-code
 category:
 
 - 思考
-  tag:
+tag:
 - 个人成长
 
 ---
