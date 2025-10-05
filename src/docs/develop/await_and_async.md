@@ -5,6 +5,7 @@ icon: laptop-code
 category:
   - 前端开发
 tag:
+  - JavaScript
   - 异步编程 
 ---
 
