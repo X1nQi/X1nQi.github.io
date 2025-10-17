@@ -71,3 +71,6 @@ tell -> 强调“**传达信息的动作**”，通常是一方在说，另一�
 - Please tell me your name.
 ## 2025年9月24日
 看了[apprehensible input视频](https://www.bilibili.com/video/BV1kMaizvEGn/?spm_id_from=333.1007.top_right_bar_window_history.content.click)，在飞书总结了一下遇到的单词
+
+## 2025年9月25日 - 2025年10月5日
+没做任何事
